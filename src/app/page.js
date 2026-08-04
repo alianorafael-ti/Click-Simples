@@ -1,37 +1,44 @@
 import { artigos } from "@/data/artigos";
 import CTASection from "@/components/CTASection";
+import SiteHeader from "@/components/SiteHeader";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="max-w-5xl mx-auto px-4 py-10">
-      {/* Hero Header */}
-      <header className="text-center py-10">
-        <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
-          Click <span className="text-blue-600">Simples</span>
-        </h1>
-        <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-          Desmistificando a tecnologia e o marketing digital para pequenos empreendedores crescerem sem complicação.
-        </p>
-      </header>
+    <div className="min-h-screen bg-zinc-950 text-zinc-100">
+      {/* Header animado da página inicial */}
+      <SiteHeader variante="home" />
 
-      {/* Grid de Artigos */}
-<section className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-  {artigos.map((item) => (
-    <Link 
-      key={item.slug} 
-      href={`/artigos/${item.slug}`}
-      className="block border border-gray-200 p-6 rounded-xl hover:shadow-lg hover:border-blue-300 transition-all bg-white"
-    >
-      <span className="text-4xl mb-4 block">{item.icone}</span>
-      <h3 className="text-xl font-bold text-gray-800 mb-2">{item.titulo}</h3>
-      <p className="text-gray-600">{item.resumo}</p>
-    </Link>
-  ))}
-</section>
+      <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+        {/* Grid de artigos */}
+        <section
+          id="guias"
+          className="my-8 grid grid-cols-1 gap-6 md:grid-cols-2"
+        >
+          {artigos.map((item) => (
+            <Link
+              key={item.slug}
+              href={`/artigos/${item.slug}`}
+              className="group block rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/50 hover:bg-zinc-900/80 hover:shadow-xl hover:shadow-blue-950/20"
+            >
+              <span className="mb-4 block text-4xl transition-transform duration-300 group-hover:scale-110">
+                {item.icone}
+              </span>
 
-      {/* Chamada para o Portfólio Aliano */}
-      <CTASection />
-    </main>
+              <h2 className="mb-3 text-xl font-bold text-zinc-100 transition-colors group-hover:text-blue-400">
+                {item.titulo}
+              </h2>
+
+              <p className="leading-7 text-zinc-400">
+                {item.resumo}
+              </p>
+            </Link>
+          ))}
+        </section>
+
+        {/* Chamada para o portfólio */}
+        <CTASection />
+      </main>
+    </div>
   );
 }

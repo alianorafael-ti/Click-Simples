@@ -3,32 +3,40 @@
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
 
-export default function ArticleScene({ secao }) {
+export default function ArticleScene({ secao, index = 0 }) {
   const paragrafos = secao.texto
     ? secao.texto
         .split(/\n\s*\n/)
-        .map((p) => p.trim())
+        .map((paragrafo) => paragrafo.trim())
         .filter(Boolean)
     : [];
 
-  const imagemEsquerda = secao.layout === "imagem-esquerda";
+  /*
+   * Alternância automática:
+   *
+   * index 0: imagem à esquerda
+   * index 1: imagem à direita
+   * index 2: imagem à esquerda
+   * index 3: imagem à direita
+   */
+  const imagemEsquerda = index % 2 === 0;
 
   const larguraImagem = secao.larguraImagem || 560;
-  const larguraTexto = secao.larguraTexto || 620;
+  const larguraTexto = secao.larguraTexto || 600;
 
-  // Seção somente texto
+  // Seção somente com texto
   if (!secao.imagem) {
     return (
-      <section className="py-20">
+      <section className="py-16 sm:py-20">
         <FadeIn direction="up">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold text-white mb-8">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="mb-8 text-3xl font-bold leading-tight text-white sm:text-4xl">
               {secao.titulo}
             </h2>
 
             <div className="space-y-5 text-lg leading-8 text-zinc-300">
-              {paragrafos.map((p, i) => (
-                <p key={i}>{p}</p>
+              {paragrafos.map((paragrafo, paragrafoIndex) => (
+                <p key={paragrafoIndex}>{paragrafo}</p>
               ))}
             </div>
           </div>
@@ -38,104 +46,91 @@ export default function ArticleScene({ secao }) {
   }
 
   return (
-    <section className="py-20">
-
-      {/* MOBILE */}
+    <section className="py-16 sm:py-20">
+      {/* Celular e tablet */}
 
       <div className="lg:hidden">
-
         <FadeIn direction="up">
-          <h2 className="text-3xl font-bold text-white mb-6">
+          <h2 className="mb-6 text-3xl font-bold leading-tight text-white">
             {secao.titulo}
           </h2>
         </FadeIn>
 
         <FadeIn direction="zoom" delay={0.1}>
-          <div
-            className="relative w-full mb-8 overflow-hidden rounded-3xl"
-            style={{ aspectRatio: "4 / 3" }}
-          >
+          <div className="mx-auto mb-8 max-w-[650px] overflow-hidden rounded-3xl">
             <Image
               src={secao.imagem}
               alt={secao.titulo}
-              fill
-              className="object-contain transition-transform duration-500 hover:scale-[1.02]"
+              width={1200}
+              height={900}
+              className="block h-auto w-full"
+              sizes="100vw"
             />
           </div>
         </FadeIn>
 
         <FadeIn direction="up" delay={0.2}>
           <div className="space-y-5 text-lg leading-8 text-zinc-300">
-            {paragrafos.map((p, i) => (
-              <p key={i}>{p}</p>
+            {paragrafos.map((paragrafo, paragrafoIndex) => (
+              <p key={paragrafoIndex}>{paragrafo}</p>
             ))}
           </div>
         </FadeIn>
-
       </div>
 
-      {/* DESKTOP */}
+      {/* Computador */}
 
       <div className="hidden lg:block">
-
         <FadeIn direction="up">
-          <h2 className="text-4xl font-bold text-white mb-10">
+          <h2 className="mb-10 text-4xl font-bold leading-tight text-white">
             {secao.titulo}
           </h2>
         </FadeIn>
 
         <div
-          className={`flex items-center gap-20 ${
-            imagemEsquerda ? "" : "flex-row-reverse"
+          className={`flex items-center justify-between gap-14 xl:gap-20 ${
+            imagemEsquerda ? "flex-row" : "flex-row-reverse"
           }`}
         >
-
-          {/* IMAGEM */}
+          {/* Imagem */}
 
           <FadeIn direction={imagemEsquerda ? "left" : "right"}>
             <div
               style={{
-                width: larguraImagem,
+                width: `${larguraImagem}px`,
+                maxWidth: "100%",
                 flexShrink: 0,
               }}
             >
-              <div
-                className="relative overflow-hidden rounded-3xl"
-                style={{
-                  width: "100%",
-                  aspectRatio: "4 / 3",
-                }}
-              >
-                <Image
-                  src={secao.imagem}
-                  alt={secao.titulo}
-                  fill
-                  className="object-contain transition-transform duration-500 hover:scale-[1.02]"
-                />
-              </div>
+              <Image
+                src={secao.imagem}
+                alt={secao.titulo}
+                width={1200}
+                height={900}
+                className="block h-auto w-full rounded-3xl transition-transform duration-500 hover:scale-[1.02]"
+                sizes={`${larguraImagem}px`}
+              />
             </div>
           </FadeIn>
 
-          {/* TEXTO */}
+          {/* Texto */}
 
           <FadeIn direction="up" delay={0.15}>
             <div
               style={{
-                width: larguraTexto,
+                width: `${larguraTexto}px`,
+                maxWidth: "100%",
               }}
             >
               <div className="space-y-5 text-lg leading-8 text-zinc-300">
-                {paragrafos.map((p, i) => (
-                  <p key={i}>{p}</p>
+                {paragrafos.map((paragrafo, paragrafoIndex) => (
+                  <p key={paragrafoIndex}>{paragrafo}</p>
                 ))}
               </div>
             </div>
           </FadeIn>
-
         </div>
-
       </div>
-
     </section>
   );
 }

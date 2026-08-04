@@ -1,112 +1,128 @@
 import { artigos } from "@/data/artigos";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
+import SiteHeader from "@/components/SiteHeader";
 import CTASection from "@/components/CTASection";
 import ArticleScene from "@/components/ArticleScene";
 import FadeIn from "@/components/FadeIn";
 
 export default async function PaginaArtigo({ params }) {
-  // 1. Pegamos o slug que veio da URL (ex: "o-que-e-marketing-digital")
   const { slug } = await params;
 
-  // 2. Procuramos no arquivo artigos.js o artigo que tem esse mesmo slug
   const artigo = artigos.find((item) => item.slug === slug);
 
-  // 3. Se o artigo não for encontrado (ex: link digitado errado)
   if (!artigo) {
     return (
-      <main className="max-w-3xl mx-auto px-4 py-20 text-center">
-        <h1 className="text-3xl font-bold text-red-600">Artigo não encontrado!</h1>
-        <p className="mt-4 text-gray-600">O conteúdo que você procura não existe ou foi removido.</p>
-        <Link href="/" className="mt-6 inline-block text-blue-600 hover:underline">
-          ← Voltar para a página inicial
-        </Link>
-      </main>
+      <div className="min-h-screen bg-zinc-950 text-zinc-100">
+        <SiteHeader />
+
+        <main className="mx-auto max-w-3xl px-5 py-20 text-center">
+          <h1 className="text-3xl font-bold text-red-500">
+            Artigo não encontrado
+          </h1>
+
+          <p className="mt-4 text-zinc-400">
+            O conteúdo que você procura não existe ou foi removido.
+          </p>
+
+          <Link
+            href="/"
+            className="mt-6 inline-block text-blue-400 transition hover:text-blue-300 hover:underline"
+          >
+            Voltar para a página inicial
+          </Link>
+        </main>
+      </div>
     );
   }
 
   const { conteudoCompleto } = artigo;
 
   return (
-   <main className="max-w-[1400px] mx-auto px-8 py-10">
-      {/* Botão de Voltar */}
-     
+    <div className="min-h-screen bg-zinc-950 text-zinc-100">
+      {/* Header interno:
+          logo pequeno à esquerda
+          botão Ver os guias à direita
+      */}
+      <SiteHeader />
 
-      {/* Cabeçalho do Artigo */}
-    <FadeIn direction="up">
-  <header className="mb-14">
+      <main className="mx-auto max-w-[1400px] px-5 py-10 sm:px-8">
+        {/* Identidade principal do Click Simples */}
 
-    <Link
-      href="/"
-      className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition mb-10"
-    >
-      ← Voltar para os guias
-    </Link>
+        <section className="border-b border-zinc-800 pb-12 pt-4 text-center sm:pb-14 sm:pt-8">
+          <FadeIn direction="up">
+            <h1 className="text-4xl font-black tracking-tight sm:text-6xl">
+              <span className="text-white">Click</span>{" "}
+              <span className="text-blue-500">Simples</span>
+            </h1>
+          </FadeIn>
 
-    <FadeIn delay={0.15}>
-      <span className="inline-block px-4 py-2 rounded-full bg-blue-600/20 border border-blue-500/40 text-blue-400 text-sm font-semibold uppercase tracking-wider">
-        {artigo.icone} Guia
-      </span>
-    </FadeIn>
+          <FadeIn direction="up" delay={0.15}>
+            <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-zinc-300 sm:text-xl">
+              Desmistificando a tecnologia e o marketing digital para pequenos
+              empreendedores crescerem sem complicação.
+            </p>
+          </FadeIn>
+        </section>
 
-    <FadeIn delay={0.25}>
-      <h1 className="mt-6 text-5xl font-extrabold leading-tight text-white max-w-4xl">
-        {artigo.titulo}
-      </h1>
-    </FadeIn>
+        {/* Título do artigo */}
 
-    {conteudoCompleto?.subtitulo && (
-      <FadeIn delay={0.35}>
-        <p className="mt-5 max-w-3xl text-xl leading-9 text-zinc-400">
-          {conteudoCompleto.subtitulo}
-        </p>
-      </FadeIn>
-    )}
+        <FadeIn direction="up">
+          <header className="pb-12 pt-14 sm:pb-14 sm:pt-16">
+            <h2 className="max-w-4xl text-4xl font-extrabold leading-tight text-white sm:text-5xl">
+              {artigo.titulo}
+            </h2>
 
-    <FadeIn delay={0.45}>
-      <div className="mt-10 h-px bg-zinc-800"></div>
-    </FadeIn>
+            {conteudoCompleto?.subtitulo && (
+              <FadeIn direction="up" delay={0.15}>
+                <p className="mt-5 max-w-3xl text-lg leading-8 text-zinc-400 sm:text-xl sm:leading-9">
+                  {conteudoCompleto.subtitulo}
+                </p>
+              </FadeIn>
+            )}
+          </header>
+        </FadeIn>
 
-  </header>
-</FadeIn>
+        {/* Imagem principal do artigo */}
 
-     {conteudoCompleto?.imagemHero && (
-  <FadeIn direction="zoom" delay={0.45}>
-    <div className="mb-10 overflow-hidden rounded-3xl">
-      <Image
-        src={conteudoCompleto.imagemHero}
-        alt={`Ilustração do artigo ${artigo.titulo}`}
-        width={1536}
-        height={1024}
-        className="w-full h-auto"
-        priority
-      />
+        {conteudoCompleto?.imagemHero && (
+          <FadeIn direction="zoom" delay={0.25}>
+            <div className="mx-auto mb-12 max-w-[1200px] overflow-hidden rounded-3xl">
+              <Image
+                src={conteudoCompleto.imagemHero}
+                alt={`Ilustração do artigo ${artigo.titulo}`}
+                width={1200}
+                height={900}
+                className="block h-auto w-full"
+                sizes="(max-width: 768px) 100vw, 1200px"
+                priority
+              />
+            </div>
+          </FadeIn>
+        )}
+
+        {/* Seções alternadas do artigo */}
+
+        {conteudoCompleto ? (
+          <article className="w-full">
+            {conteudoCompleto.secoes.map((secao, index) => (
+              <ArticleScene
+                key={`${artigo.slug}-${index}`}
+                secao={secao}
+                index={index}
+                ultima={index === conteudoCompleto.secoes.length - 1}
+              />
+            ))}
+          </article>
+        ) : (
+          <p className="py-10 text-center italic text-zinc-500">
+            Em breve o texto completo deste artigo estará disponível.
+          </p>
+        )}
+
+        <CTASection />
+      </main>
     </div>
-  </FadeIn>
-)}
-
-      {/* Conteúdo do Texto */}
-{conteudoCompleto ? (
-  <article className="prose lg:prose-lg text-gray-800 leading-relaxed">
-
-   {conteudoCompleto.secoes.map((secao, index) => (
-  <ArticleScene
-    key={index}
-    secao={secao}
-    index={index}
-    ultima={index === conteudoCompleto.secoes.length - 1}
-  />
-))}
-
-  </article>
-) : (
-        <p className="text-gray-500 italic py-8">
-          Em breve o texto completo deste artigo estará disponível!
-        </p>
-      )}
-
-      {/* Chamada para o Portfólio no final da leitura */}
-      <CTASection />
-    </main>
   );
 }
