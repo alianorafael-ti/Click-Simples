@@ -214,31 +214,7 @@ Ter presença digital significa fazer com que as pessoas consigam encontrar o se
 Se ninguém consegue encontrar você, para muita gente é como se a sua empresa nem existisse.`
       },
 
-      {
-        tipo: "imagem-texto",
-        titulo: '"Mas eu já tenho Instagram..."',
-        imagem: "/imagens-click-simples/texto2-img3.png",
-        layout: "imagem-esquerda",
-        texto: `Essa é uma das frases mais comuns.
-
-"Eu já tenho Instagram."
-
-Ótimo!
-
-Mas criar um perfil é apenas o começo.
-
-É como colocar uma placa na porta da sua loja.
-
-A placa ajuda.
-
-Mas, sozinha, ela não faz milhares de pessoas aparecerem na sua porta.
-
-Presença digital não é estar em uma única rede social.
-
-Também não significa criar conta em todas elas.
-
-O importante é estar nos lugares certos e facilitar a vida de quem procura pelos seus serviços.`
-      },
+     
 
       {
         tipo: "imagem-texto",
@@ -368,6 +344,274 @@ Significa tornar o seu negócio fácil de encontrar, fácil de conhecer e fácil
 Quando alguém procura exatamente o que você oferece, você precisa estar lá.
 
 Nos próximos artigos vamos descobrir quais ferramentas ajudam a construir essa presença e como usá-las de um jeito simples, mesmo que você nunca tenha trabalhado com tecnologia.`
+      }
+    ]
+  }
+},
+
+{
+  slug: "como-um-cliente-encontra-sua-empresa-na-internet",
+
+  titulo: "Como um cliente encontra a sua empresa na internet?",
+
+  resumo:
+    "Descubra como uma simples pesquisa no celular pode levar um novo cliente até a sua empresa.",
+
+  icone: "🔎",
+
+  conteudoCompleto: {
+    subtitulo:
+      "Do celular do cliente até a porta da sua empresa: entenda o caminho que acontece em poucos segundos.",
+
+    imagemHero: "/imagens-click-simples/texto3-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Tudo começa com um problema",
+
+        imagem: "/imagens-click-simples/texto3-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        texto: `Imagine a seguinte situação.
+
+Uma torneira da cozinha começa a vazar bem na hora do almoço.
+
+A água escorre pela pia, a família olha preocupada e alguém diz:
+
+"Precisamos chamar um encanador!"
+
+Antigamente, a pessoa perguntaria ao vizinho, procuraria um anúncio no jornal ou tentaria encontrar aquele cartão de visitas que desapareceu misteriosamente dentro de uma gaveta.
+
+Hoje acontece algo muito mais simples.
+
+Ela pega o celular.
+
+Abre o Google.
+
+E procura por um encanador perto dela.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Em poucos segundos aparecem várias opções",
+
+        imagem: "/imagens-click-simples/texto3-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        texto: `Em menos de um segundo aparecem várias empresas.
+
+Algumas têm fotos.
+
+Outras mostram avaliações de clientes.
+
+Algumas possuem um site.
+
+Outras oferecem um botão para conversar pelo WhatsApp.
+
+O cliente observa as opções, compara algumas informações e começa a decidir em quem confiar.
+
+Enquanto isso, existe um excelente profissional que mora apenas duas ruas dali...
+
+Mas ele não aparece em lugar nenhum.
+
+Para aquele cliente, é como se essa empresa simplesmente não existisse.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "O cliente não está procurando você",
+
+        imagem: "/imagens-click-simples/texto3-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        texto: `Calma, isso não é nada pessoal.
+
+Na maioria das vezes, o cliente ainda nem sabe que a sua empresa existe.
+
+Ele está procurando uma solução.
+
+Quase ninguém acorda pensando:
+
+"Hoje quero conhecer a empresa do João."
+
+As pessoas pensam:
+
+"Preciso de um cabeleireiro."
+
+"Quero comprar um bolo."
+
+"Onde encontro uma farmácia aberta?"
+
+"Preciso de um eletricista."
+
+O cliente procura primeiro pelo problema que precisa resolver.
+
+Só depois ele escolhe quem poderá ajudá-lo.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "A internet funciona como uma cidade enorme",
+
+        imagem: "/imagens-click-simples/texto3-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        texto: `Imagine que a internet seja uma cidade gigantesca.
+
+Nessa cidade existem milhões de ruas, avenidas, lojas, oficinas, salões, padarias e restaurantes.
+
+Todos os dias, milhares de pessoas caminham por ela procurando exatamente aquilo de que precisam.
+
+Sua empresa é uma dessas lojas.
+
+Agora imagine duas situações.
+
+Na primeira, a loja tem uma fachada bonita, uma placa visível e um endereço fácil de encontrar.
+
+Na segunda, ela está escondida atrás de um muro, sem placa e sem qualquer indicação de onde fica.
+
+Qual delas receberá mais visitantes?
+
+Na internet acontece praticamente a mesma coisa.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "A padaria no meio da floresta",
+
+        imagem: "/imagens-click-simples/texto3-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        texto: `Estar na internet não garante que uma multidão de clientes aparecerá automaticamente.
+
+Seria ótimo se funcionasse assim.
+
+Bastava criar uma página, colocar uma foto bonita e esperar a fila começar.
+
+Infelizmente, não é tão simples.
+
+Mas não estar na internet faz com que muitas pessoas nunca tenham a oportunidade de encontrar você.
+
+É como abrir uma padaria maravilhosa no meio de uma floresta.
+
+O pão pode estar quentinho.
+
+O café pode estar perfeito.
+
+O bolo pode até ser receita da avó.
+
+Mas, se ninguém souber que a padaria existe, quem vai comprar?`
+      },
+
+      {
+        tipo: "texto",
+
+        titulo: "O caminho acontece muito rápido",
+        layout: "imagem-direita",
+        imagem: "/imagens-click-simples/texto3-img9.png",
+
+        texto: `Entre o momento em que uma pessoa pega o celular e escolhe uma empresa podem passar menos de dois minutos.
+
+Geralmente, o caminho acontece assim:
+
+O cliente identifica um problema.
+
+Faz uma pesquisa.
+
+Analisa algumas opções.
+
+Observa fotos e avaliações.
+
+Entra em contato.
+
+E, finalmente, contrata o serviço ou realiza a compra.
+
+Tudo isso acontece tão rapidamente que muitas empresas nem percebem que participaram dessa disputa.
+
+Ou pior...
+
+Nem chegaram a participar.`
+      },
+
+      {
+        tipo: "texto",
+
+        titulo: "E onde entram o Google, o site e o Instagram?",
+        layout: "imagem-esquerda",
+        imagem: "/imagens-click-simples/texto3-img10.png",
+
+        texto: `Talvez você esteja pensando:
+
+"Mas quem faz tudo isso acontecer?"
+
+Existe o Google.
+
+Existe o Perfil da Empresa no Google.
+
+Existe o site.
+
+Existe o Instagram.
+
+Existe o WhatsApp.
+
+Cada ferramenta possui uma função diferente.
+
+Quando elas trabalham juntas, ajudam o cliente a encontrar sua empresa, conhecer seu trabalho e decidir se vale a pena entrar em contato.
+
+Nos próximos artigos, vamos conhecer cada uma delas de maneira simples, sem palavras complicadas e sem precisar virar especialista em informática.`
+      },
+
+      {
+        tipo: "texto",
+
+        titulo: "No fim das contas...",
+        layout: "imagem-direita",
+        imagem: "/imagens-click-simples/texto3-img8.png",
+
+        texto: `A internet não mudou apenas a forma de vender.
+
+Ela também mudou a forma como as pessoas procuram.
+
+Antes de visitar uma loja, contratar um serviço ou realizar uma compra, muita gente faz uma rápida pesquisa no celular.
+
+Em poucos segundos, o cliente decide em quem confiar.
+
+A boa notícia é que você não precisa entender tudo de tecnologia para fazer parte desse caminho.
+
+Basta compreender como ele funciona.
+
+E é exatamente isso que vamos aprender juntos nos próximos artigos do Click Simples.`
       }
     ]
   }
