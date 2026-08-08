@@ -1643,6 +1643,434 @@ E é isso que vamos descobrir no próximo artigo.`
     ]
   }
 },
+
+{
+  slug: "o-que-e-o-instagram-para-empresas",
+
+  titulo: "O que é o Instagram para empresas?",
+
+  resumo:
+    "Entenda de forma simples como o Instagram pode ajudar uma pequena empresa a mostrar seu trabalho, ser descoberta e se relacionar com clientes.",
+
+  icone: "📱",
+
+  conteudoCompleto: {
+    subtitulo:
+      "Mais do que postar fotos e esperar curtidas",
+
+    imagemHero: "/imagens-click-simples/texto7-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas Instagram não é só uma rede social?",
+
+        imagem: "/imagens-click-simples/texto7-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Você abre o Instagram só para dar uma olhadinha.
+
+Cinco minutos.
+
+Pelo menos era esse o plano.
+
+Quando percebe, já viu o cachorro de alguém, uma receita que provavelmente nunca vai fazer, três vídeos engraçados e descobriu que uma pessoa que você nem conhece está viajando.
+
+Mas, no meio disso tudo, aparece uma confeitaria.
+
+Você vê um bolo bonito, entra no perfil, olha outros trabalhos e descobre que ela atende perto da sua casa.
+
+Então pensa:
+
+"Hum... vou guardar isso aqui."
+
+Você não estava procurando uma confeitaria.
+
+Mesmo assim, acabou conhecendo uma.
+
+E é justamente aí que começa uma das coisas mais interessantes do Instagram.
+
+Mas Instagram não é só uma rede social?
+
+É.
+
+E talvez essa seja a maneira mais fácil de começar.
+
+O Instagram é uma rede social onde pessoas publicam fotos e vídeos, acompanham outras pessoas, conversam, comentam e compartilham conteúdos.
+
+Só que empresas também estão nesse ambiente.
+
+Imagine uma cabeleireira.
+
+Durante o dia ela faz cortes, penteados, coloração e outros trabalhos. Alguns clientes que passam por ali já conhecem o trabalho dela.
+
+Mas ela também pode mostrar esses trabalhos no Instagram.
+
+Uma pessoa que nunca entrou naquele salão pode ver uma foto, assistir a um vídeo, acompanhar um pouco do trabalho e começar a conhecer aquela profissional.
+
+Perceba que ainda não aconteceu nenhuma venda.
+
+A pessoa simplesmente conheceu o trabalho.
+
+E isso já é importante.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "É como uma vitrine que muda o tempo todo",
+
+        imagem: "/imagens-click-simples/texto7-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine uma loja com uma vitrine.
+
+Hoje ela coloca alguns produtos.
+
+Na semana seguinte troca.
+
+Depois apresenta uma novidade.
+
+Quem passa pela rua consegue observar um pouco daquilo que existe lá dentro.
+
+O Instagram pode cumprir um papel parecido.
+
+Uma confeiteira pode mostrar seus bolos. Uma cabeleireira pode mostrar seus penteados. Uma oficina pode mostrar um serviço realizado. Uma loja de roupas pode apresentar peças novas.
+
+Mas existe uma diferença interessante.
+
+Essa "vitrine" pode mudar o tempo todo.
+
+Fotos, vídeos, Stories, Reels, bastidores, novidades...
+
+A empresa consegue mostrar um pouco do que está acontecendo no dia a dia.
+
+E quem acompanha começa a conhecer não apenas aquilo que ela vende, mas também um pouco de como ela trabalha.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Nem todo mundo que vê estava procurando comprar",
+
+        imagem: "/imagens-click-simples/texto7-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Lembra do Google?
+
+Quando alguém pesquisa:
+
+"Encanador perto de mim"
+
+existe uma necessidade bastante clara.
+
+Provavelmente ninguém faz essa pesquisa às duas da manhã apenas porque está curioso sobre a profissão de encanador.
+
+Alguma coisa aconteceu.
+
+E provavelmente envolve água onde não deveria ter água.
+
+No Instagram, a situação pode ser diferente.
+
+A pessoa pode estar simplesmente olhando fotos e vídeos quando encontra uma empresa que não conhecia.
+
+Talvez ela não precise daquele serviço naquele momento.
+
+Mas agora sabe que ele existe.
+
+É parecido com passar na frente de uma loja e pensar:
+
+"Olha... não conhecia esse lugar."
+
+Você continua andando.
+
+Mas a loja entrou no seu mapa mental.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Então é só postar?",
+
+        imagem: "/imagens-click-simples/texto7-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Seria maravilhoso.
+
+Abriu o Instagram.
+
+Postou qualquer coisa.
+
+Esperou um pouquinho.
+
+Clientes apareceram.
+
+Fim.
+
+Infelizmente, o botão "publicar" ainda não vem acompanhado de um botão "trazer clientes".
+
+Uma empresa precisa pensar no que está mostrando e se aquilo ajuda alguém a entender seu trabalho.
+
+Imagine um perfil.
+
+Na segunda-feira aparece uma foto de um produto.
+
+Na terça, "bom dia" com uma xícara de café.
+
+Na quarta, um gatinho.
+
+Na quinta, uma frase sobre nunca desistir dos seus sonhos.
+
+Na sexta, ninguém sabe mais se o perfil vende bolo ou administra uma página de mensagens positivas.
+
+Não significa que tudo precisa ser sério ou que uma empresa só possa falar de produtos.
+
+Mas é importante que, ao visitar o perfil, uma pessoa consiga entender quem está falando e o que aquela empresa faz.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Seguidores não são clientes",
+
+        imagem: "/imagens-click-simples/texto7-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Existe um número no Instagram que chama bastante atenção:
+
+seguidores.
+
+Mil.
+
+Dez mil.
+
+Cem mil.
+
+Quanto maior, mais impressionante parece.
+
+Mas existe uma diferença importante.
+
+Seguidor não significa automaticamente cliente.
+
+Imagine uma pequena pizzaria que entrega apenas em alguns bairros.
+
+O que seria mais útil?
+
+Ter 800 pessoas da região acompanhando o perfil e conhecendo a pizzaria?
+
+Ou ter 50 mil seguidores espalhados pelo país inteiro, sendo que a maioria jamais conseguirá pedir uma pizza dali?
+
+Os 50 mil impressionam mais.
+
+Mas pizza fria depois de viajar 900 quilômetros costuma perder um pouco do encanto.
+
+Para uma pequena empresa, muitas vezes é mais importante ser conhecida pelas pessoas certas do que simplesmente ser conhecida por muita gente.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "E as curtidas?",
+
+        imagem: "/imagens-click-simples/texto7-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Aí aparece outro número famoso.
+
+As curtidas.
+
+A empresa publica alguma coisa e começa a olhar.
+
+Doze curtidas.
+
+Atualiza.
+
+Treze.
+
+Atualiza novamente.
+
+Continua treze.
+
+Talvez o problema seja o Instagram.
+
+Atualiza mais uma vez só para confirmar.
+
+Treze.
+
+Curtidas, comentários, compartilhamentos e visualizações podem ajudar a perceber como as pessoas estão reagindo ao conteúdo.
+
+Mas esses números não contam sozinhos toda a história de uma empresa.
+
+Uma pessoa pode ver uma publicação, não curtir, entrar no perfil, conhecer o trabalho e dias depois entrar em contato.
+
+Outra pode curtir todas as publicações e nunca comprar nada.
+
+Por isso, transformar cada curtida em uma questão de vida ou morte pode deixar qualquer comerciante maluco.
+
+Os números ajudam.
+
+Mas precisam ser entendidos dentro de um contexto.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Instagram, site, Google e WhatsApp",
+
+        imagem: "/imagens-click-simples/texto7-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Agora as peças começam a se encaixar.
+
+Imagine que uma pessoa está no Instagram e encontra uma pequena empresa.
+
+Ela gosta do trabalho e começa a acompanhar.
+
+Alguns dias depois precisa daquele serviço. Pesquisa o nome da empresa no Google, olha a localização e as avaliações.
+
+Depois entra no site para conhecer melhor os serviços.
+
+Gostou.
+
+Clica no WhatsApp.
+
+Conversa.
+
+Mas o caminho também poderia ser diferente.
+
+Ela poderia encontrar primeiro no Google e depois visitar o Instagram.
+
+Ou receber o endereço do site de alguém e, de lá, chegar ao WhatsApp.
+
+Não existe uma fila obrigatória:
+
+"Primeiro Google. Depois site. Favor não ultrapassar."
+
+As pessoas fazem caminhos diferentes.
+
+É justamente por isso que essas ferramentas podem trabalhar juntas.
+
+Cada uma ajuda em uma parte da conversa entre a empresa e o cliente.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto7-img9.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+       texto: `O Instagram para uma empresa não é simplesmente um lugar para juntar seguidores e colecionar curtidas.
+
+Ele pode ser um espaço para mostrar trabalhos, apresentar novidades, compartilhar um pouco do dia a dia e permitir que pessoas conheçam melhor o negócio. Isso não significa que toda pequena empresa precise virar produtora de vídeos profissional.
+
+Muito menos que o comerciante precise acordar pensando:
+
+"Meu Deus! Ainda não fiz meu Reel de hoje!"
+
+Calma.
+
+A ferramenta deve ajudar o negócio. O negócio não deve existir para alimentar a ferramenta.
+
+E também não precisamos colocar Instagram, Google, site e WhatsApp em uma competição. Como já vimos, cada um pode cumprir uma função diferente.
+
+Mas agora aparece outra situação.
+
+Imagine que uma confeitaria queira divulgar especialmente seus ovos de Páscoa, uma loja queira apresentar uma promoção ou uma escola queira divulgar novas matrículas.
+
+Em todos esses casos existe algo em comum: durante algum tempo, aquela empresa concentra sua comunicação em um objetivo específico.
+
+Quando isso acontece, encontramos outra palavra muito usada no marketing: campanha.
+
+Parece coisa de eleição.
+
+Mas calma. Não precisa ter santinho, carro de som nem candidato abraçando criança.
+
+A palavra também é usada no marketing.
+
+Mas afinal...
+
+o que é uma campanha?
+
+É isso que vamos descobrir no próximo capítulo.`
+      }
+    ]
+  }
+},
   {
     slug: "presenca-digital",
 
