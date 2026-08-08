@@ -1309,6 +1309,340 @@ o que é um site?
     ]
   }
 },
+
+{
+  slug: "o-que-e-um-site",
+
+  titulo: "O que é um site?",
+
+  resumo:
+    "Entenda de maneira simples o que é um site, para que ele serve e como ele pode ajudar uma pequena empresa na internet.",
+
+  icone: "🌐",
+
+  conteudoCompleto: {
+    subtitulo:
+      "Seu espaço na internet, organizado do seu jeito",
+
+    imagemHero: "/imagens-click-simples/texto6-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Tá... mas o que é um site?",
+
+        imagem: "/imagens-click-simples/texto6-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine que você está procurando uma empresa no Google. Encontra uma que parece interessante, olha as avaliações, confere o horário e vê algumas fotos.
+
+Até que aparece um botão: "Site".
+
+Você toca e outra página abre. Tem o nome da empresa, fotos, informações sobre os serviços, formas de contato e talvez até preços ou produtos.
+
+Você continua navegando normalmente.
+
+Mas espere um pouquinho...
+
+O que exatamente acabou de abrir?
+
+Vamos imaginar uma pequena confeitaria. A dona faz bolos, doces, salgados e aqueles brigadeiros que deveriam vir acompanhados de um aviso:
+
+"Cuidado. Você vai querer outro."
+
+Ela precisa de um lugar na internet onde possa apresentar seu trabalho. Nesse lugar, ela pode mostrar quem é, o que faz, quais produtos oferece, algumas fotos, onde atende e como o cliente pode falar com ela.
+
+Esse espaço pode ser um site.
+
+De maneira bem simples, um site é um espaço na internet criado para apresentar informações, serviços, produtos ou conteúdos de uma pessoa, empresa ou organização.
+
+E provavelmente você já usa sites todos os dias.
+
+Quando lê uma notícia, consulta alguma informação, pesquisa uma empresa ou compra alguma coisa pela internet, muitas vezes está dentro de um site.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Pense em uma pequena loja",
+
+        imagem: "/imagens-click-simples/texto6-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine que você entra em uma loja. Logo na entrada existe uma apresentação da empresa e, mais adiante, estão os produtos.
+
+Em outro lugar ficam informações sobre os serviços. Também existe uma maneira de falar com alguém.
+
+Um site pode ser organizado de maneira parecida.
+
+Só que, em vez de caminhar pela loja, você toca ou clica nas opções da tela.
+
+Uma parte pode contar a história da empresa. Outra pode apresentar os serviços, outra pode mostrar fotos e outra pode simplesmente dizer:
+
+"Quer conversar com a gente? É por aqui."
+
+O importante é que a pessoa consiga encontrar aquilo que procura sem precisar participar de uma caça ao tesouro.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas um site precisa ter um monte de páginas?",
+
+        imagem: "/imagens-click-simples/texto6-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Não.
+
+Uma pequena empresa não precisa criar uma enciclopédia sobre ela mesma.
+
+Imagine um eletricista. Talvez o cliente queira saber apenas algumas coisas:
+
+Quem é esse profissional?
+
+Que tipo de serviço ele realiza?
+
+Em quais regiões atende?
+
+Como posso entrar em contato?
+
+Pronto.
+
+Dependendo do negócio, um site simples pode responder tudo isso. Ele pode até ter apenas uma página bem organizada.
+
+Não existe prêmio para a empresa que conseguir colocar mais páginas na internet.
+
+O importante é que o site seja útil para quem chegou até ele.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: '"Mas eu já tenho Instagram"',
+
+        imagem: "/imagens-click-simples/texto6-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `E está tudo bem.
+
+Instagram e site não precisam brigar.
+
+Aliás, seria uma briga bastante estranha.
+
+De um lado, o Instagram.
+
+Do outro, o site.
+
+E o WhatsApp no canto tentando separar os dois.
+
+Cada ferramenta pode cumprir uma função diferente.
+
+No Instagram, por exemplo, uma empresa pode publicar fotos, vídeos, novidades e conversar com as pessoas de uma maneira mais frequente.
+
+Já o site pode organizar informações importantes da empresa em um lugar preparado especificamente para isso.
+
+Uma coisa não precisa eliminar a outra.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "A diferença está também no espaço",
+
+        imagem: "/imagens-click-simples/texto6-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine um pequeno comerciante dentro de um shopping. Ele possui sua loja, coloca seus produtos nas prateleiras e atende seus clientes.
+
+Mas continua dentro do shopping.
+
+Existem horários, regras e uma estrutura que não foram criados por ele.
+
+As redes sociais funcionam um pouco assim.
+
+Sua empresa pode ter um perfil e publicar conteúdo, mas continua utilizando o espaço de outra plataforma.
+
+O site funciona de maneira diferente.
+
+Ele pode ser organizado especialmente para aquela empresa: sua apresentação, seus serviços, suas informações e o caminho que deseja oferecer ao visitante.
+
+Isso não significa que um seja melhor e o outro pior.
+
+Significa apenas que são espaços diferentes.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "E o que acontece quando alguém entra no site?",
+
+        imagem: "/imagens-click-simples/texto6-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Vamos voltar ao cliente que estava pesquisando no Google. Ele encontrou uma empresa e viu o Perfil da Empresa.
+
+Gostou das avaliações e depois entrou no site.
+
+Ali conseguiu entender melhor o serviço, viu algumas fotos e encontrou exatamente aquilo que precisava.
+
+Então apareceu um botão para conversar pelo WhatsApp.
+
+Clique.
+
+Mensagem enviada.
+
+Percebeu?
+
+O Google ajudou a encontrar. O Perfil da Empresa apresentou informações rápidas. O site ajudou a conhecer melhor o negócio. E o WhatsApp abriu a conversa.
+
+Nenhuma ferramenta precisou fazer o trabalho inteiro sozinha.
+
+É como um time de futebol.
+
+Cada jogador tem sua função.
+
+O goleiro não precisa sair driblando o time inteiro para provar que é importante.
+
+Na verdade, é melhor que ele não faça isso.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Um site também não precisa fazer tudo",
+
+        imagem: "/imagens-click-simples/texto6-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Às vezes imaginamos um site como uma coisa gigantesca. Dezenas de páginas, sistemas complicados, um monte de botões e coisas piscando para todos os lados.
+
+Calma.
+
+O site de uma pequena empresa pode ser simples.
+
+Uma apresentação clara, alguns serviços, boas imagens, informações importantes e uma maneira fácil de entrar em contato já podem cumprir muito bem o seu papel.
+
+É como construir uma loja.
+
+Se uma boa loja pequena atende perfeitamente o negócio, não existe motivo para construir um shopping center.
+
+O tamanho não é o mais importante.
+
+A utilidade é.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto6-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Um site é muito menos misterioso do que parece.
+
+É simplesmente um espaço na internet onde uma pessoa, empresa ou organização pode apresentar informações de maneira organizada. Para uma pequena empresa, ele pode mostrar quem ela é, o que faz, quais serviços oferece e como o cliente pode entrar em contato.
+
+Ele não precisa substituir o Google, o Perfil da Empresa ou o WhatsApp. E também não precisa declarar guerra ao Instagram.
+
+Essas ferramentas podem trabalhar juntas.
+
+Aos poucos, aquela coisa enorme chamada "presença digital" começa a ficar bem menos assustadora. Já conhecemos o Google, conhecemos o Perfil da Empresa e agora conhecemos o site.
+
+Mas existe uma ferramenta que provavelmente você já conhece muito bem como usuário.
+
+Fotos, vídeos, Stories, Reels, seguidores...
+
+E aquele conhecido:
+
+"Só vou olhar cinco minutinhos."
+
+Quarenta minutos depois...
+
+Você ainda está lá.
+
+Sim. Estamos falando do Instagram.
+
+Mas uma coisa é usar Instagram. Outra é entender qual pode ser o papel dele para uma empresa.
+
+E é isso que vamos descobrir no próximo artigo.`
+      }
+    ]
+  }
+},
   {
     slug: "presenca-digital",
 
