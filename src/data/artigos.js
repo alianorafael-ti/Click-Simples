@@ -2071,6 +2071,369 @@ o que é uma campanha?
     ]
   }
 },
+{
+  slug: "o-que-e-uma-campanha",
+
+  titulo: "O que é uma campanha?",
+
+  resumo:
+    "Entenda de forma simples o que é uma campanha e como diferentes ações podem trabalhar juntas para alcançar um objetivo.",
+
+  icone: "🎯",
+
+  conteudoCompleto: {
+    subtitulo:
+      "Várias ações trabalhando juntas para alcançar um objetivo",
+
+    imagemHero: "/imagens-click-simples/texto8-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas afinal... o que é uma campanha?",
+
+        imagem: "/imagens-click-simples/texto8-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine uma pequena confeitaria algumas semanas antes da Páscoa.
+
+A dona percebe que está chegando uma das épocas mais importantes do ano para o negócio. Ela prepara alguns ovos de chocolate, capricha na decoração e tira boas fotos.
+
+Mas desta vez ela não quer simplesmente publicar uma foto e esperar para ver o que acontece.
+
+Ela quer vender ovos de Páscoa.
+
+Parece uma diferença pequena.
+
+Mas é justamente aí que começa uma campanha.
+
+Vamos tirar uma coisa do caminho logo no começo.
+
+Parece coisa de eleição.
+
+Mas calma.
+
+Não precisa ter santinho, carro de som nem candidato abraçando criança.
+
+No marketing, uma campanha é simplesmente um conjunto de ações organizadas para alcançar um objetivo.
+
+Nossa confeiteira, por exemplo, pode ter um objetivo bem claro: vender seus ovos de Páscoa durante as semanas que antecedem a data.
+
+A partir daí, tudo começa a fazer mais sentido.
+
+As fotos, as publicações, as mensagens e outras formas de divulgação deixam de ser coisas soltas.
+
+Elas começam a trabalhar juntas para chegar ao mesmo lugar.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Primeiro vem o objetivo",
+
+        imagem: "/imagens-click-simples/texto8-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine uma escola dizendo:
+
+"Precisamos fazer uma campanha!"
+
+Ótimo.
+
+Mas para quê?
+
+Conseguir novas matrículas? Divulgar um curso? Avisar sobre uma atividade? Apresentar a escola para mais famílias?
+
+Sem saber o objetivo, é como entrar em um táxi e dizer:
+
+"Pode ir."
+
+O motorista provavelmente vai perguntar:
+
+"Para onde?"
+
+Com uma campanha acontece a mesma coisa.
+
+Antes de pensar no que publicar ou onde divulgar, é importante saber o que queremos alcançar.
+
+Uma loja pode querer divulgar uma promoção. Um restaurante pode querer apresentar um novo prato. Um eletricista pode querer divulgar determinado serviço.
+
+Os negócios são diferentes.
+
+A ideia é a mesma: primeiro sabemos onde queremos chegar. Depois pensamos no caminho.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Então campanha é fazer várias publicações?",
+
+        imagem: "/imagens-click-simples/texto8-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Não necessariamente.
+
+Voltemos à nossa confeitaria.
+
+Ela poderia tirar uma foto de um ovo de Páscoa, publicar no Instagram e pronto.
+
+Isso seria uma publicação.
+
+Agora imagine outra situação.
+
+Ela decide que durante três semanas vai divulgar seus ovos de Páscoa. Prepara algumas fotos, mostra os diferentes produtos, avisa antigos clientes pelo WhatsApp e organiza uma página no site com as informações importantes.
+
+Percebeu a diferença?
+
+Agora existe um objetivo, um período e várias ações trabalhando em torno da mesma ideia.
+
+Isso é uma campanha.
+
+Não significa fazer cinquenta publicações por dia até os clientes começarem a sonhar com chocolate.
+
+Significa organizar a comunicação para que as ações façam sentido juntas.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Uma campanha pode ter começo e fim",
+
+        imagem: "/imagens-click-simples/texto8-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Algumas campanhas existem para alcançar um objetivo durante determinado período.
+
+A campanha dos ovos de Páscoa, por exemplo, não precisa continuar até dezembro.
+
+Seria um pouco estranho.
+
+Da mesma forma, uma escola pode fazer uma campanha durante o período de matrículas. Uma loja pode organizar uma campanha para uma promoção de aniversário. Um restaurante pode divulgar um novo prato durante algumas semanas.
+
+Isso ajuda a entender uma coisa importante:
+
+uma campanha não precisa ser algo que a empresa fará para sempre.
+
+Ela pode nascer para atender uma necessidade específica, acontecer durante um período e depois terminar.
+
+Mais tarde, outra campanha pode começar com outro objetivo.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "E onde entram Instagram, site e WhatsApp?",
+
+        imagem: "/imagens-click-simples/texto8-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Lembra das ferramentas que conhecemos nos capítulos anteriores?
+
+Agora elas começam a trabalhar juntas.
+
+A confeitaria pode usar o Instagram para mostrar os ovos de Páscoa. Pode colocar no site informações mais organizadas sobre tamanhos, opções e formas de encomenda. Pode usar o WhatsApp para conversar com quem demonstrou interesse.
+
+Não existe obrigação de usar tudo.
+
+O importante é entender que a campanha é o plano; as ferramentas ajudam a colocar esse plano em prática.
+
+É como preparar um almoço.
+
+Panela, forno e faca podem participar do preparo.
+
+Mas nenhuma dessas coisas é o almoço.
+
+Da mesma forma, Instagram, site e WhatsApp podem participar de uma campanha.
+
+Mas nenhuma dessas ferramentas, sozinha, é a campanha.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Mas campanha não é quando a gente paga para anunciar?",
+
+        imagem: "/imagens-click-simples/texto8-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Pode ser.
+
+Mas não precisa ser.
+
+Essa confusão é muito comum porque frequentemente ouvimos expressões como "campanha de anúncios" ou "campanha no Google".
+
+Então parece que campanha e anúncio pago são a mesma coisa.
+
+Não são.
+
+Nossa confeiteira poderia organizar toda a campanha de Páscoa usando apenas os canais que já possui: Instagram, site, WhatsApp e contato com clientes.
+
+Ainda seria uma campanha.
+
+Também seria possível usar anúncios pagos para ajudar na divulgação.
+
+Mas aí estamos falando de uma das maneiras de divulgar uma campanha, e não da definição de campanha.
+
+Guarde essa diferença porque ela vai ser importante daqui a pouco.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Publicar por publicar é diferente de ter um objetivo",
+
+        imagem: "/imagens-click-simples/texto8-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine o perfil de uma pequena loja.
+
+Na segunda-feira aparece uma foto de um produto.
+
+Na terça, uma frase motivacional.
+
+Na quarta, uma promoção.
+
+Na quinta, uma foto do café.
+
+Na sexta, ninguém lembra mais o que estava sendo divulgado.
+
+Não existe nenhum crime nisso.
+
+O café pode até estar bonito.
+
+O problema aparece quando a empresa espera que várias publicações sem ligação entre si produzam um resultado específico.
+
+Uma campanha organiza a conversa.
+
+Se o objetivo deste mês é divulgar uma promoção, as ações podem ajudar as pessoas a conhecer essa promoção, entendê-la e saber como aproveitar.
+
+Em vez de cada publicação seguir para um lado, todas sabem mais ou menos para onde estão indo.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto8-img9.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Campanha parece uma palavra complicada porque é usada o tempo todo no marketing.
+
+Mas a ideia é bastante simples.
+
+Uma campanha é uma ação organizada em torno de um objetivo.
+
+Pode ser uma confeitaria querendo vender ovos de Páscoa, uma escola buscando novas matrículas, uma loja divulgando uma promoção ou um prestador querendo apresentar determinado serviço.
+
+Ela pode acontecer durante um período e utilizar diferentes formas de comunicação.
+
+Pode passar pelo Instagram.
+
+Pode passar pelo site.
+
+Pode passar pelo WhatsApp.
+
+E pode até envolver anúncios pagos.
+
+Mas anúncio pago não é obrigatório para existir uma campanha.
+
+Agora imagine que nossa confeiteira já organizou tudo.
+
+Os ovos estão prontos. As fotos ficaram bonitas. A campanha tem um objetivo.
+
+E ela começa a pensar:
+
+"Será que existe uma maneira de pagar para aparecer justamente quando alguém estiver procurando por ovos de Páscoa no Google?"
+
+Existe.
+
+E é aqui que encontramos outro nome que parece muito mais complicado do que realmente é:
+
+Google Ads.
+
+Mas afinal...
+
+o que é o Google Ads?
+
+É isso que vamos descobrir no próximo capítulo.`
+      }
+    ]
+  }
+},
   {
     slug: "presenca-digital",
 
