@@ -926,6 +926,389 @@ E é justamente sobre ela que vamos conversar no próximo capítulo.`
     ]
   }
 },
+{
+  slug: "o-que-e-o-perfil-da-empresa-no-google",
+
+  titulo: "O que é o Perfil da Empresa no Google?",
+
+  resumo:
+    "Entenda como sua empresa pode aparecer no Google com informações como telefone, endereço, horário, fotos e avaliações.",
+
+  icone: "📍",
+
+  conteudoCompleto: {
+    subtitulo:
+      "A vitrine da sua empresa quando alguém procura por ela",
+
+    imagemHero: "/imagens-click-simples/texto5-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Quem colocou tudo isso aqui?",
+
+        imagem: "/imagens-click-simples/texto5-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine que você está em um bairro que não conhece. Bateu aquela fome. Você pega o celular e pesquisa: "Pizzaria perto de mim."
+
+Em poucos segundos aparecem várias opções. Você escolhe uma delas e começa a olhar. Tem o nome da pizzaria, fotos das pizzas, endereço, telefone, horário de funcionamento, avaliações de clientes e até um botão mostrando como chegar.
+
+Você olha as fotos, olha as estrelinhas, confere o horário e dá mais uma olhadinha naquela pizza de calabresa...
+
+E pensa:
+
+"É essa."
+
+Pouco tempo depois, você está indo até lá.
+
+Tudo muito normal.
+
+Mas existe uma pergunta que quase ninguém faz:
+
+Quem colocou todas aquelas informações no Google?
+
+No artigo anterior, vimos que o Google funciona como uma enorme ponte entre quem procura alguma coisa e quem pode oferecer aquilo. Mas o Google precisa saber que uma empresa existe e também precisa de informações para apresentá-la.
+
+É aí que aparece o Perfil da Empresa no Google.
+
+O nome parece coisa de reunião importante.
+
+Mas a ideia é bem simples.
+
+O Perfil da Empresa é um espaço onde um negócio pode apresentar suas principais informações no Google.
+
+É como se sua empresa dissesse:
+
+"Olá, Google. Eu estou aqui. Faço isso. Atendo neste horário. Este é meu telefone. E estas são algumas fotos do meu trabalho."
+
+Quando alguém faz uma pesquisa relacionada àquela empresa ou serviço, essas informações podem aparecer para ajudar o cliente.
+
+É aquela ficha que você provavelmente já viu muitas vezes.
+
+Só não sabia que ela tinha nome.
+
+Agora sabe.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "É como uma ficha da sua empresa",
+
+        imagem: "/imagens-click-simples/texto5-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Vamos imaginar uma pequena oficina mecânica. O dono trabalha muito bem, conserta carros há anos e conhece motor só pelo barulho.
+
+O cliente chega dizendo:
+
+"O carro está fazendo clec-clec-clec."
+
+Ele escuta cinco segundos e já começa a desconfiar do problema.
+
+O homem entende do assunto.
+
+Mas existe um detalhe.
+
+Quem nunca ouviu falar daquela oficina não sabe de nada disso. Para essa pessoa, ela é apenas uma empresa que ainda não conhece.
+
+O Perfil da Empresa ajuda justamente nessa apresentação.
+
+Nele podem aparecer informações como nome da empresa, endereço, telefone, horário de funcionamento, fotos, avaliações de clientes, localização no mapa, formas de contato e serviços oferecidos.
+
+Pense nele como uma ficha de apresentação da empresa dentro do Google.
+
+O cliente ainda não entrou na loja e ainda não conversou com o dono.
+
+Mas já começou a conhecer o negócio.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Muito mais do que nome e telefone",
+
+        imagem: "/imagens-click-simples/texto5-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Antigamente, encontrar uma empresa podia significar descobrir apenas duas coisas: nome e telefone.
+
+E boa sorte.
+
+Hoje o cliente quer saber muito mais antes de entrar em contato.
+
+Imagine que alguém encontre duas padarias. A primeira mostra fotos, endereço, horário atualizado e avaliações de outros clientes. Na segunda aparece pouca informação e ninguém sabe ao certo nem se ela ainda está funcionando.
+
+Qual das duas parece mais fácil de escolher?
+
+Provavelmente a primeira.
+
+Não necessariamente porque ela seja melhor, mas porque o cliente conseguiu conhecê-la um pouco antes de sair de casa.
+
+Esse é um ponto importante.
+
+O Perfil da Empresa não serve apenas para dizer:
+
+"Eu existo."
+
+Ele também ajuda a responder pequenas perguntas que passam pela cabeça do cliente:
+
+Onde fica?
+
+Está aberto?
+
+Como eu entro em contato?
+
+Como é o lugar?
+
+Outras pessoas já compraram ali?
+
+Quanto mais fácil for encontrar essas respostas, menos obstáculos existem entre o cliente e a empresa.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Mas será que está aberto?",
+
+        imagem: "/imagens-click-simples/texto5-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine a cena. É sábado e você precisa comprar alguma coisa. Pega o celular, encontra uma loja e o Google informa que ela está aberta até as 18h.
+
+Você atravessa o bairro.
+
+Chega às 17h20.
+
+E encontra a porta fechada.
+
+A placa continua lá.
+
+A loja continua lá.
+
+Só o comerciante que não está.
+
+Nesse momento, você não pensa:
+
+"Compreendo. Provavelmente houve uma pequena falha na atualização das informações digitais deste estabelecimento."
+
+Não.
+
+Você pensa outra coisa.
+
+E talvez seja melhor não escrever aqui.
+
+É por isso que informações como horário, telefone e endereço parecem detalhes, mas são muito importantes.
+
+O Perfil da Empresa pode ajudar o cliente antes mesmo de ele falar com alguém. Mas, para isso, as informações precisam representar o que realmente acontece no negócio.
+
+Não adianta o Google dizer uma coisa e a porta da loja dizer outra.
+
+Nessa discussão, a porta geralmente ganha.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "As famosas estrelinhas e as fotos",
+
+        imagem: "/imagens-click-simples/texto5-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Chegamos a uma das partes mais conhecidas: as avaliações.
+
+Antes de conhecer uma empresa, muita gente observa o que outros clientes disseram sobre ela. É parecido com pedir indicação para um conhecido.
+
+Antigamente alguém perguntava:
+
+"Você conhece um eletricista bom?"
+
+Hoje a pessoa também pode pesquisar e observar a experiência de outros clientes.
+
+As avaliações ajudam a construir confiança.
+
+Mas atenção.
+
+Isso não significa que uma empresa precisa entrar em desespero porque recebeu uma avaliação ruim.
+
+Nenhum negócio real agrada todo mundo o tempo inteiro.
+
+Até pão de queijo tem gente que não gosta.
+
+Difícil entender, mas tem.
+
+O importante é perceber que as avaliações ajudam quem ainda não conhece a empresa a formar uma primeira impressão.
+
+E as fotos também ajudam bastante.
+
+Uma cabeleireira pode mostrar seus trabalhos, uma confeiteira pode mostrar seus bolos, uma oficina pode mostrar sua estrutura, uma loja pode mostrar seus produtos e um restaurante pode mostrar seus pratos.
+
+Não precisa transformar a empresa em um estúdio de cinema.
+
+Às vezes, algumas fotos claras e verdadeiras já ajudam bastante.
+
+O objetivo não é fingir que o negócio é algo que ele não é.
+
+É permitir que o cliente veja um pouco daquilo que realmente encontrará.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Google, Perfil da Empresa e site não são a mesma coisa",
+
+        imagem: "/imagens-click-simples/texto5-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Não.
+
+E essa confusão é muito comum.
+
+Vamos simplificar.
+
+Imagine uma cidade.
+
+O Google é como o lugar onde as pessoas procuram endereços, empresas e informações.
+
+O Perfil da Empresa funciona como uma ficha de apresentação do seu negócio dentro desse ambiente.
+
+Já o site é um espaço próprio da empresa na internet.
+
+Podemos pensar assim:
+
+O Google ajuda a pessoa a procurar.
+
+O Perfil da Empresa ajuda seu negócio a se apresentar nessa procura.
+
+E o site oferece um espaço próprio onde a empresa pode explicar melhor quem é, o que faz, mostrar seus serviços e organizar suas informações.
+
+Um não precisa brigar com o outro.
+
+Aliás, seria uma briga bastante estranha.
+
+É como discutir se é mais importante ter endereço ou ter uma loja.
+
+Cada coisa tem sua função.
+
+E, quando trabalham juntas, facilitam o caminho do cliente.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto5-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `O Perfil da Empresa no Google é muito menos complicado do que o nome pode fazer parecer.
+
+Ele ajuda uma empresa a mostrar informações importantes para pessoas que estão procurando por ela ou por serviços semelhantes.
+
+Nome, telefone, endereço, horário, fotos, avaliações, localização e formas de contato.
+
+Tudo isso pode ajudar alguém que nunca ouviu falar daquela empresa a dar o primeiro passo.
+
+E talvez essa seja a melhor maneira de entender a ferramenta:
+
+o Perfil da Empresa ajuda um desconhecido a começar a conhecer o seu negócio.
+
+Primeiro ele encontra.
+
+Depois observa.
+
+Compara.
+
+Olha as fotos.
+
+Lê algumas avaliações.
+
+Confere o horário.
+
+E talvez entre em contato.
+
+Mas existe outra peça importante nessa história.
+
+Em vários momentos falamos que uma empresa também pode ter um espaço próprio na internet. Um lugar onde ela pode apresentar seus serviços com mais liberdade, contar sua história, mostrar seus trabalhos e organizar suas informações do seu jeito.
+
+Esse lugar tem um nome que você certamente já ouviu muitas vezes:
+
+site.
+
+Mas afinal...
+
+o que é um site?
+
+É isso que vamos descobrir no próximo capítulo.`
+      }
+    ]
+  }
+},
   {
     slug: "presenca-digital",
 
