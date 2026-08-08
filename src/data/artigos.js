@@ -617,6 +617,315 @@ E é exatamente isso que vamos aprender juntos nos próximos artigos do Click Si
   }
 },
 
+{
+  slug: "o-que-e-o-google",
+
+  titulo: "O que é o Google?",
+
+  resumo:
+    "Entenda por que o Google virou o primeiro lugar onde muita gente procura produtos, serviços e empresas.",
+
+  icone: "🔎",
+
+  conteudoCompleto: {
+    subtitulo:
+      "Por que quase toda compra começa por ele?",
+
+    imagemHero: "/imagens-click-simples/texto4-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Todo mundo já fez isso...",
+
+        imagem: "/imagens-click-simples/texto4-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine a seguinte cena.
+
+É sábado. Você finalmente decidiu descansar. Preparou um café, sentou no sofá e ligou a televisão.
+
+Quando tudo parecia perfeito...
+
+Plof!
+
+A torneira da cozinha resolve começar a pingar.
+
+Ping... Ping... Ping...
+
+Você fecha uma vez. Fecha de novo. Dá aquela apertadinha extra que todo brasileiro acredita que resolve qualquer problema.
+
+Não resolveu.
+
+Agora existem duas pessoas olhando para a torneira: você... e a própria torneira.
+
+Nenhum dos dois sabe o que fazer.
+
+Alguns anos atrás talvez você perguntasse para um vizinho:
+
+"Você conhece um encanador?"
+
+Hoje a história costuma ser bem diferente. Você pega o celular, abre o Google e escreve:
+
+"Encanador perto de mim."
+
+Pronto. Em poucos segundos aparecem várias opções.
+
+O Google não conserta a torneira, mas ajuda você a encontrar quem conserta.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Antigamente era a lista telefônica",
+
+        imagem: "/imagens-click-simples/texto4-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Se você tem alguns anos de estrada, provavelmente vai lembrar da famosa lista telefônica.
+
+Era um livro tão grosso que, se caísse no pé, machucava mais do que a conta de luz.
+
+Ali estavam os telefones de milhares de empresas. Quando alguém precisava de um eletricista, uma farmácia ou qualquer outro serviço, começava a procurar página por página.
+
+Hoje quase ninguém faz isso.
+
+Não porque a lista ficou pequena. O celular simplesmente ficou muito mais prático.
+
+Agora basta escrever algumas palavras e, em poucos segundos, aparecem várias empresas com endereço, telefone, fotos, horário de funcionamento e até a opinião de outras pessoas.
+
+Convenhamos...
+
+É bem mais fácil.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "O Google virou um hábito",
+
+        imagem: "/imagens-click-simples/texto4-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Talvez você nunca tenha parado para pensar nisso, mas o Google participa de uma boa parte do nosso dia.
+
+Pesquisar virou algo tão natural que fazemos sem perceber.
+
+Antes de sair de casa:
+
+"Vai chover hoje?"
+
+Na hora do almoço:
+
+"Restaurante perto de mim."
+
+Antes de viajar:
+
+"Quanto tempo demora?"
+
+No fim do dia:
+
+"Como tirar mancha de café da camisa."
+
+E, depois de tomar três cafés...
+
+"Como dormir mais cedo."
+
+O Google virou um hábito.
+
+Quase tão automático quanto olhar as horas ou conferir uma mensagem no celular.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "O Google não vende produtos",
+
+        imagem: "/imagens-click-simples/texto4-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Existe uma ideia curiosa: muita gente pensa que o Google vende aquilo que aparece nas pesquisas.
+
+Mas não é bem assim.
+
+O Google não faz pizza, não corta cabelo, não vende flores e não conserta computadores.
+
+Ele faz outra coisa: aproxima quem está procurando de quem pode resolver o problema.
+
+Imagine uma enorme biblioteca.
+
+Você entra procurando um livro e a bibliotecária diz:
+
+"Corredor três. Segunda estante. Prateleira de cima."
+
+Ela não escreveu o livro.
+
+Apenas sabia onde ele estava.
+
+O Google faz algo parecido.
+
+Ele organiza informações para ajudar as pessoas a encontrar aquilo que procuram.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Como ele decide o que mostrar?",
+
+        imagem: "/imagens-click-simples/texto4-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine que você entrou em uma rua com duas oficinas.
+
+As duas fazem um excelente serviço, mas existe uma diferença.
+
+A primeira tem fachada limpa, placa visível, horário de funcionamento, telefone, fotos e clientes entrando e saindo.
+
+Na segunda, o portão está fechado.
+
+Não existe placa.
+
+Você nem sabe se ela está funcionando naquele dia.
+
+Qual das duas passa mais confiança para alguém que nunca esteve ali?
+
+É esse tipo de diferença que ajuda o Google a organizar os resultados.
+
+Muita gente imagina que existe algum botão secreto ou truque misterioso para aparecer primeiro.
+
+Na prática, não é tão mágico assim.
+
+Informações claras, atualizadas e úteis facilitam a vida de quem está pesquisando.
+
+E quando uma empresa facilita a vida do cliente, ela também aumenta suas chances de ser encontrada.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Onde entram o Perfil da Empresa, o site e o Google Ads?",
+
+        imagem: "/imagens-click-simples/texto4-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `É aqui que muita gente mistura tudo.
+
+Alguns pensam que o Google faz tudo sozinho.
+
+Na verdade, ele trabalha em equipe.
+
+O Google é o lugar onde a pesquisa acontece.
+
+O Perfil da Empresa mostra informações importantes sobre o negócio.
+
+O site apresenta a empresa com mais detalhes.
+
+O Google Ads ajuda quando a empresa quer divulgar anúncios.
+
+Cada ferramenta possui uma função diferente.
+
+É como um time de futebol.
+
+O goleiro não faz o trabalho do atacante.
+
+E o atacante também não deve resolver jogar no gol só porque acordou inspirado.
+
+Cada um tem sua função.
+
+Quando todos trabalham juntos, fica muito mais fácil levar o cliente da pesquisa até a empresa.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto4-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `O Google se tornou um dos caminhos mais rápidos entre um problema e uma solução.
+
+Todos os dias, milhões de pessoas procuram um restaurante, uma farmácia, um eletricista, um salão, uma oficina ou algum outro serviço.
+
+Do outro lado dessas pesquisas existem empresas esperando ser encontradas.
+
+Mas existe uma ferramenta criada especialmente para ajudar pequenos negócios nesse momento.
+
+Ela pode mostrar fotos, horário de funcionamento, telefone, localização, avaliações e outras informações importantes.
+
+E o melhor: para começar, você não precisa ser especialista em tecnologia.
+
+Essa ferramenta é o Perfil da Empresa no Google.
+
+E é justamente sobre ela que vamos conversar no próximo capítulo.`
+      }
+    ]
+  }
+},
   {
     slug: "presenca-digital",
 
