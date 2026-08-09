@@ -2434,36 +2434,963 @@ o que é o Google Ads?
     ]
   }
 },
-  {
-    slug: "presenca-digital",
 
-    titulo: "Presença Digital para Leigos",
+{
+  slug: "o-que-e-google-ads",
 
-    resumo:
-      "Por que estar apenas no Instagram não é suficiente para sua empresa.",
+  titulo: "O que é o Google Ads?",
 
-    icone: "📱"
-  },
+  resumo:
+    "Entenda de forma simples como empresas podem pagar para aparecer quando alguém procura pelo que elas oferecem no Google.",
 
-  {
-    slug: "dominio-e-hospedagem",
+  icone: "📢",
+ 
+  conteudoCompleto: {
+    subtitulo:
+      "Uma forma de pagar para aparecer quando alguém procura pelo que você vende",
 
-    titulo: "Domínio e Hospedagem sem Segredos",
+    imagemHero: "/imagens-click-simples/texto9-img1.png",
 
-    resumo:
-      "Saiba a diferença entre o nome da sua casa e o terreno onde ela fica.",
+    secoes: [
+      {
+        tipo: "imagem-texto",
 
-    icone: "🏠"
-  },
+        layout: "imagem-esquerda",
 
-  {
-    slug: "como-o-google-encontra",
+        titulo: "Mas afinal... o que é Google Ads?",
 
-    titulo: "Como o Google encontra seu negócio?",
+        imagem: "/imagens-click-simples/texto9-img2.png",
 
-    resumo:
-      "Descubra como os clientes encontram sua empresa nas pesquisas do dia a dia.",
+        larguraImagem: 560,
 
-    icone: "🔍"
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine que a nossa confeiteira do artigo anterior terminou de organizar sua campanha de Páscoa.
+
+Ela preparou os ovos, tirou boas fotos, divulgou no Instagram, colocou informações no site e deixou o WhatsApp pronto para receber encomendas.
+
+A campanha está organizada.
+
+Mas então surge uma pergunta interessante:
+
+E se alguém que nunca ouviu falar da confeitaria pegar o celular e pesquisar no Google:
+
+"ovos de Páscoa perto de mim"?
+
+Será que existe uma maneira de a confeitaria aparecer justamente naquele momento?
+
+Existe.
+
+É aqui que entra o Google Ads.
+
+Vamos deixar as palavras complicadas de lado.
+
+Google Ads é a ferramenta de publicidade do Google.
+
+Por meio dela, uma empresa pode pagar para que seus anúncios apareçam para pessoas que estão fazendo determinadas pesquisas.
+
+Pense novamente na confeitaria.
+
+De um lado, temos uma pessoa procurando onde comprar ovos de Páscoa.
+
+Do outro, temos uma confeiteira querendo encontrar pessoas interessadas em comprar ovos de Páscoa.
+
+O Google Ads pode ajudar a colocar uma diante da outra.
+
+É como colocar uma placa da sua empresa em uma rua por onde passam justamente pessoas procurando aquilo que você vende.
+
+Só que essa "rua" é uma pesquisa no Google.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Mas o Google já não mostra empresas de graça?",
+
+        imagem: "/imagens-click-simples/texto9-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Mostra.
+
+E aqui existe uma diferença importante.
+
+Quando você faz uma pesquisa no Google, pode encontrar resultados que aparecem normalmente: sites, páginas, mapas, empresas e outras informações que o Google considera relacionadas à sua busca.
+
+Mas também podem aparecer anúncios.
+
+Esses resultados são publicidade paga e possuem uma identificação indicando que são patrocinados.
+
+Imagine uma pessoa pesquisando:
+
+"confeitaria ovos de Páscoa".
+
+Entre os resultados, ela poderá encontrar empresas que apareceram naturalmente e também empresas que estão anunciando.
+
+As duas podem levar o cliente até aquilo que ele procura.
+
+A diferença é que, no segundo caso, existe uma empresa pagando para anunciar naquele espaço.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Então é só pagar e minha empresa fica em primeiro lugar?",
+
+        imagem: "/imagens-click-simples/texto9-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Calma.
+
+Se fosse assim, o Google Ads teria um botão enorme escrito:
+
+"COLOQUE DINHEIRO AQUI E FIQUE RICO."
+
+Seria conveniente.
+
+Mas esse botão não existe.
+
+Pagar por publicidade não significa simplesmente comprar a primeira posição do Google, e muito menos comprar clientes.
+
+Existem vários fatores que influenciam quando e onde um anúncio poderá aparecer.
+
+Você não precisa aprender todos eles agora.
+
+Por enquanto, basta guardar uma ideia:
+
+Google Ads aumenta as possibilidades de sua empresa ser apresentada a pessoas interessadas.
+
+Ele não obriga ninguém a clicar.
+
+E, principalmente, não obriga ninguém a comprar.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Anúncio não é a mesma coisa que venda",
+
+        imagem: "/imagens-click-simples/texto9-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine uma loja em uma avenida movimentada.
+
+O dono paga para colocar uma grande placa algumas quadras antes:
+
+"Temos bolos aqui."
+
+Muita gente poderá ver a placa.
+
+Algumas pessoas poderão entrar na loja.
+
+Mas o que acontece depois depende de muitas outras coisas.
+
+O bolo é bom?
+
+O preço faz sentido?
+
+A loja transmite confiança?
+
+O atendimento é bom?
+
+É fácil fazer o pedido?
+
+A mesma coisa acontece na internet.
+
+Um anúncio pode levar uma pessoa até sua empresa.
+
+Mas, quando ela chega, começa outra parte da história.
+
+Se o site estiver confuso, as informações estiverem erradas, ninguém responder às mensagens ou o cliente não entender o que você vende, o anúncio não consegue resolver tudo sozinho.
+
+Publicidade abre uma porta.
+
+Ainda é preciso dar ao cliente bons motivos para entrar.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "E quanto eu preciso gastar?",
+
+        imagem: "/imagens-click-simples/texto9-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Talvez esta seja a parte que mais assusta um pequeno comerciante.
+
+Quando alguém ouve falar em publicidade, pode imaginar imediatamente:
+
+"Pronto. Lá se vai o dinheiro do aluguel."
+
+Não precisa ser assim.
+
+No Google Ads, a empresa pode definir quanto pretende investir.
+
+Isso permite começar com um orçamento compatível com a realidade do negócio, em vez de simplesmente entregar um cartão ao Google e torcer para ele ter misericórdia.
+
+Mas existe um detalhe importante:
+
+ter controle sobre o orçamento não significa que qualquer valor produzirá qualquer resultado.
+
+O investimento precisa fazer sentido para o objetivo da campanha, para o mercado e para aquilo que a empresa está tentando alcançar.
+
+Por isso, antes de pensar:
+
+"Quanto eu vou gastar?"
+
+é melhor perguntar:
+
+"O que eu quero conseguir com esse anúncio?"
+
+Lembra do artigo sobre campanhas?
+
+O objetivo continua vindo primeiro.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Então Google Ads também faz parte de uma campanha?",
+
+        imagem: "/imagens-click-simples/texto9-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Exatamente.
+
+Agora as peças começam a se encaixar.
+
+Uma campanha pode ter um objetivo.
+
+Por exemplo:
+
+"Quero aumentar as encomendas de ovos de Páscoa durante as próximas semanas."
+
+Para tentar alcançar esse objetivo, a confeiteira pode usar fotos, Instagram, site, WhatsApp e outras formas de divulgação.
+
+E pode decidir usar também anúncios no Google.
+
+Nesse caso, o Google Ads é mais uma ferramenta trabalhando dentro da campanha.
+
+Ele não é a campanha inteira.
+
+Assim como Instagram não é a campanha.
+
+Site não é a campanha.
+
+WhatsApp não é a campanha.
+
+São ferramentas.
+
+A campanha é o plano que organiza essas ferramentas em direção a um objetivo.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas minha empresa precisa anunciar?",
+
+        imagem: "/imagens-click-simples/texto9-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Não necessariamente.
+
+Uma empresa pode ser encontrada na internet sem pagar anúncios.
+
+Ao longo desta série vimos várias maneiras pelas quais isso pode acontecer.
+
+Ela pode aparecer no Google, ter um Perfil da Empresa bem cuidado, possuir um site útil, manter presença nas redes sociais e construir uma boa presença digital.
+
+Google Ads acrescenta outra possibilidade:
+
+pagar para divulgar sua empresa para pessoas que podem estar procurando por aquilo que ela oferece.
+
+Para alguns negócios e objetivos, isso pode fazer bastante sentido.
+
+Para outros, talvez não seja a prioridade naquele momento.
+
+A pergunta não deve ser:
+
+"Todo mundo está anunciando. Eu preciso anunciar também?"
+
+A pergunta melhor é:
+
+"Isso faz sentido para o meu negócio e para o objetivo que eu quero alcançar?"`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto9-img9.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Lembra de quando começamos esta jornada?
+
+A expressão "Marketing Digital" talvez parecesse uma daquelas coisas que exigiam computador poderoso, três monitores, gráficos piscando na tela e alguém falando palavras em inglês muito rapidamente.
+
+Mas olhe para o caminho que percorremos.
+
+Marketing Digital.
+
+Presença Digital.
+
+Google.
+
+Perfil da Empresa.
+
+Site.
+
+Instagram.
+
+Campanhas.
+
+Google Ads.
+
+Agora essas palavras já não precisam parecer um monte de peças espalhadas sobre a mesa.
+
+Existe uma lógica.
+
+O cliente precisa encontrar sua empresa.
+
+Depois precisa conhecer o que você oferece.
+
+Precisa sentir confiança.
+
+Precisa conseguir entrar em contato.
+
+E cada ferramenta pode ajudar em uma parte desse caminho.
+
+Você não precisa dominar todas elas.
+
+Também não precisa usar todas elas.
+
+E definitivamente não precisa virar especialista em tecnologia para cuidar de um pequeno negócio.
+
+O mais importante é compreender para que cada ferramenta serve.
+
+Depois disso, fica muito mais fácil decidir quais delas realmente fazem sentido para você.
+
+Porque tecnologia não precisa complicar o seu negócio.
+
+Quando você entende o básico, ela deixa de parecer um problema enorme e começa a ocupar o lugar que sempre deveria ter ocupado:
+
+uma ferramenta para ajudar você a cuidar melhor do seu negócio.`
+      }
+    ]
   }
-];
+},
+
+{
+  slug: "o-que-e-whatsapp-business",
+
+  titulo: "O que é o WhatsApp Business?",
+
+  resumo:
+    "Entenda de forma simples como o WhatsApp Business pode ajudar pequenos negócios a atender clientes e organizar conversas.",
+
+  icone: "💬",
+
+  conteudoCompleto: {
+    subtitulo:
+      "O WhatsApp que você já conhece, mas preparado para ajudar no atendimento da sua empresa",
+
+    imagemHero: "/imagens-click-simples/texto10-img1.png",
+
+    secoes: [
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas afinal... o que é WhatsApp Business?",
+
+        imagem: "/imagens-click-simples/texto10-img2.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 3,
+
+        texto: `Imagine uma pequena comerciante em um dia normal de trabalho.
+
+Ela está atendendo um cliente quando o celular toca.
+
+"Quanto custa?"
+
+Ela responde.
+
+Pouco depois, chega outra mensagem:
+
+"Qual é o endereço?"
+
+Ela responde novamente.
+
+Mais alguns minutos:
+
+"Vocês abrem amanhã?"
+
+Lá vai ela responder outra vez.
+
+E então chega aquela mensagem clássica:
+
+"Oi."
+
+Só "Oi".
+
+E silêncio.
+
+Bem-vindo ao atendimento pelo WhatsApp.
+
+Para muitos pequenos negócios, o WhatsApp deixou de ser apenas um aplicativo para conversar com amigos e familiares.
+
+Ele virou quase um balcão digital.
+
+É por ali que clientes perguntam preços, tiram dúvidas, pedem informações, fazem encomendas e, muitas vezes, decidem se vão comprar ou contratar um serviço.
+
+E é justamente aí que entra o WhatsApp Business.
+
+O nome pode até parecer coisa de empresa grande.
+
+"Business."
+
+Já dá vontade de imaginar escritório, reunião, gravata e alguém falando palavras em inglês enquanto aponta para um gráfico.
+
+Mas não é nada disso.
+
+O WhatsApp Business é, basicamente, uma versão do WhatsApp pensada para quem usa essas conversas também para cuidar de um negócio.
+
+Ele continua servindo para mandar e receber mensagens.
+
+A diferença é que oferece alguns recursos que ajudam a transformar aquele celular cheio de conversas em um espaço de atendimento um pouco mais organizado.
+
+Pense assim:
+
+o WhatsApp comum foi feito principalmente para conversar.
+
+O WhatsApp Business também conversa — mas traz algumas ferramentas para quem conversa com clientes.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Seu WhatsApp pode virar a porta de entrada da empresa",
+
+        imagem: "/imagens-click-simples/texto10-img3.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine que alguém encontrou sua empresa no Google.
+
+Viu algumas fotos.
+
+Entrou no seu site.
+
+Passou pelo Instagram.
+
+Gostou do que encontrou.
+
+Até que finalmente decidiu entrar em contato.
+
+E aparece aquela mensagem:
+
+"Boa tarde. Gostaria de saber mais sobre o serviço."
+
+Percebeu o que aconteceu?
+
+Tudo aquilo que vimos até aqui — Google, Perfil da Empresa, site, Instagram, campanhas e anúncios — pode terminar em algo muito simples:
+
+uma conversa.
+
+É como se o cliente tivesse caminhado pela internet até chegar ao balcão da sua empresa.
+
+Só que esse balcão está dentro do celular.
+
+Por isso, para muitos pequenos negócios, o WhatsApp é uma das partes mais importantes da presença digital.
+
+É onde a tecnologia finalmente coloca duas pessoas frente a frente.
+
+Mesmo que cada uma esteja de um lado da tela.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "Mas qual é a diferença para o WhatsApp normal?",
+
+        imagem: "/imagens-click-simples/texto10-img4.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Na aparência e na maneira de conversar, muita coisa continua familiar.
+
+Você recebe mensagens.
+
+Responde.
+
+Envia fotos.
+
+Conversa com seus clientes.
+
+A diferença está em alguns recursos extras pensados para o atendimento comercial.
+
+Por exemplo, a empresa pode apresentar informações importantes sobre o negócio em seu perfil.
+
+Pode informar horário de atendimento.
+
+Pode organizar melhor determinadas conversas.
+
+Pode apresentar produtos em um catálogo.
+
+E pode preparar algumas mensagens para situações que se repetem com frequência.
+
+Nada disso transforma o celular em uma central de comando de filme de ficção científica.
+
+São apenas ferramentas para resolver pequenos problemas que aparecem quando o número de conversas começa a crescer.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Um pequeno balcão que pode ficar mais organizado",
+
+        imagem: "/imagens-click-simples/texto10-img5.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Vamos voltar à nossa comerciante.
+
+Imagine que durante o dia ela recebeu mensagens de várias pessoas.
+
+Uma quer saber o preço.
+
+Outra pediu um orçamento.
+
+Uma terceira já confirmou a compra.
+
+Outra disse que vai pensar.
+
+E tem aquela pessoa que mandou:
+
+"Oi."
+
+Continua lá.
+
+Em silêncio.
+
+Quando existem poucas conversas, talvez seja fácil lembrar de todo mundo.
+
+Mas conforme o movimento aumenta, a situação pode começar a ficar confusa.
+
+"Eu já respondi aquela cliente?"
+
+"Quem estava esperando orçamento?"
+
+"Quem confirmou o pedido?"
+
+"Para quem eu precisava retornar?"
+
+Alguns recursos do WhatsApp Business ajudam justamente nessa organização.
+
+A ideia não é complicar o atendimento.
+
+É evitar que o comerciante precise guardar tudo na cabeça.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "E o tal do catálogo?",
+
+        imagem: "/imagens-click-simples/texto10-img6.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Imagine uma confeiteira.
+
+Durante o dia inteiro, clientes perguntam:
+
+"Tem bolo de chocolate?"
+
+"Quais tamanhos vocês fazem?"
+
+"Tem brigadeiro?"
+
+"Posso ver os produtos?"
+
+Ela poderia procurar fotografias na galeria do celular toda vez que alguém perguntasse.
+
+Foto do bolo.
+
+Foto do brigadeiro.
+
+Foto daquela torta que ela tem certeza de que salvou em algum lugar...
+
+Só precisa descobrir onde.
+
+O catálogo ajuda a organizar essa apresentação.
+
+Em vez de o cliente depender apenas de uma sequência de fotos espalhadas pela conversa, alguns produtos ou serviços podem ficar reunidos de maneira mais organizada.
+
+É como uma pequena vitrine dentro do próprio atendimento.
+
+Mas atenção:
+
+catálogo não faz milagre.
+
+Uma foto ruim continua sendo uma foto ruim.
+
+Uma informação confusa continua sendo confusa.
+
+A ferramenta ajuda a apresentar.
+
+Quem precisa conhecer bem aquilo que vende continua sendo o comerciante.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "E as mensagens automáticas?",
+
+        imagem: "/imagens-click-simples/texto10-img7.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Aqui existe uma palavra que costuma assustar um pouco:
+
+automação.
+
+Mas não precisamos transformar isso em algo complicado.
+
+Imagine que sua empresa atende até as seis da tarde.
+
+Às dez da noite alguém manda:
+
+"Boa noite. Vocês estão abertos?"
+
+Você provavelmente não quer ficar olhando para o celular até a hora de dormir só para responder mensagens.
+
+Uma mensagem de ausência pode avisar que a empresa não está atendendo naquele momento.
+
+Também existem situações em que uma mensagem inicial pode ajudar a receber quem acabou de entrar em contato.
+
+Isso pode ser útil.
+
+O problema começa quando tentamos transformar toda conversa em uma conversa entre cliente e robô.
+
+Cliente:
+
+"Preciso explicar uma situação um pouco diferente..."
+
+Empresa:
+
+"Obrigado pelo contato."
+
+Cliente:
+
+"Mas eu queria saber se vocês conseguem..."
+
+Empresa:
+
+"Obrigado pelo contato."
+
+Aí não ajuda muito.
+
+Automação deve facilitar o atendimento.
+
+Não substituir o bom senso.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-esquerda",
+
+        titulo: "WhatsApp Business não substitui bom atendimento",
+
+        imagem: "/imagens-click-simples/texto10-img8a.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Talvez este seja o ponto mais importante deste artigo.
+
+Você pode ter perfil comercial.
+
+Catálogo organizado.
+
+Horário informado.
+
+Mensagens automáticas.
+
+Conversas perfeitamente separadas.
+
+Mas, do outro lado da tela, continua existindo uma pessoa.
+
+Uma pessoa que quer ser atendida.
+
+E tecnologia nenhuma conserta um atendimento ruim.
+
+Se o cliente pergunta algo e recebe uma resposta grosseira, pouco importa quantas ferramentas a empresa configurou.
+
+Se ninguém responde, o catálogo não resolve.
+
+Se as informações são confusas, uma mensagem automática não salva a conversa.
+
+O WhatsApp Business pode ajudar a organizar o balcão.
+
+Mas quem atende atrás do balcão continua sendo você.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "Então toda empresa precisa usar WhatsApp Business?",
+
+        imagem: "/imagens-click-simples/texto10-img8.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Não.
+
+E essa resposta talvez já não surpreenda você.
+
+Ao longo desta série, vimos várias ferramentas.
+
+Google.
+
+Perfil da Empresa.
+
+Site.
+
+Instagram.
+
+Campanhas.
+
+Google Ads.
+
+Agora, WhatsApp Business.
+
+Mas isso não significa que todo pequeno comerciante precise sair correndo e usar tudo ao mesmo tempo.
+
+Cada negócio possui necessidades diferentes.
+
+Para uma empresa que recebe muitos contatos pelo WhatsApp, os recursos do Business podem ser muito úteis.
+
+Para outra, talvez o WhatsApp tenha um papel menor.
+
+O importante é entender a ferramenta antes de decidir se ela faz sentido para você.
+
+Tecnologia útil é tecnologia que resolve um problema.
+
+Não tecnologia que cria mais uma obrigação.`
+      },
+
+      {
+        tipo: "imagem-texto",
+
+        layout: "imagem-direita",
+
+        titulo: "No fim das contas...",
+
+        imagem: "/imagens-click-simples/texto10-img9.png",
+
+        larguraImagem: 560,
+
+        larguraTexto: 600,
+
+        textoFluido: true,
+
+        paragrafosAntesImagem: 2,
+
+        texto: `Lembra de onde começamos?
+
+Lá no primeiro artigo apareceu uma expressão que parecia enorme:
+
+Marketing Digital.
+
+Depois vieram outras.
+
+Presença Digital.
+
+Google.
+
+Perfil da Empresa.
+
+Site.
+
+Instagram.
+
+Campanha.
+
+Google Ads.
+
+E agora:
+
+WhatsApp Business.
+
+Separadas, essas palavras podem dar a impressão de que existe um mundo tecnológico complicado esperando do outro lado da porta.
+
+Mas agora conseguimos enxergar algo diferente.
+
+O Google pode ajudar alguém a encontrar sua empresa.
+
+O Perfil da Empresa pode mostrar onde ela está e apresentar informações importantes.
+
+O site pode ser o endereço próprio da empresa na internet.
+
+O Instagram pode ajudar as pessoas a conhecerem melhor o negócio.
+
+Uma campanha pode organizar uma divulgação em torno de um objetivo.
+
+O Google Ads pode aumentar as possibilidades de aparecer para determinadas pessoas.
+
+E o WhatsApp Business pode ajudar quando finalmente chega a hora de conversar com o cliente.
+
+Nenhuma dessas ferramentas precisa mandar no seu negócio.
+
+E você não precisa usar todas elas.
+
+Muito menos virar especialista em tecnologia.
+
+Precisa apenas compreender para que servem e escolher aquelas que realmente ajudam sua empresa.
+
+Porque, no fim das contas, tecnologia é ferramenta.
+
+Ela deve trabalhar para o seu negócio.
+
+Seu negócio não deve trabalhar para ela.
+
+E depois de todos os aplicativos, sites, pesquisas, anúncios, fotos, cliques e mensagens, ainda existe algo que nenhuma tecnologia deveria apagar:
+
+de um lado existe uma pessoa.
+
+E do outro também.`
+      }
+    ]
+  }
+},
+  
+];  
