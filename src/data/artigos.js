@@ -3217,7 +3217,7 @@ Não substituir o bom senso.`
 
         titulo: "WhatsApp Business não substitui bom atendimento",
 
-        imagem: "/imagens-click-simples/texto10-img8a.png",
+        imagem: "/imagens-click-simples/texto10-img8.png",
 
         larguraImagem: 560,
 
@@ -3267,7 +3267,7 @@ Mas quem atende atrás do balcão continua sendo você.`
 
         larguraImagem: 560,
 
-        larguraTexto: 600,
+        larguraTexto: 600,  
 
         textoFluido: true,
 
