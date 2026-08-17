@@ -7,6 +7,43 @@ import CTASection from "@/components/CTASection";
 import ArticleScene from "@/components/ArticleScene";
 import FadeIn from "@/components/FadeIn";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const artigo = artigos.find((item) => item.slug === slug);
+
+  if (!artigo) {
+    return {
+      title: "Artigo não encontrado",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const descricao =
+    artigo.conteudoCompleto?.subtitulo ||
+    "Conteúdo do Click Simples sobre marketing digital, tecnologia e presença digital para pequenos empreendedores.";
+
+  return {
+    title: artigo.titulo,
+
+    description: descricao,
+
+    alternates: {
+      canonical: `/artigos/${artigo.slug}`,
+    },
+
+    openGraph: {
+      title: artigo.titulo,
+      description: descricao,
+      url: `/artigos/${artigo.slug}`,
+      type: "article",
+    },
+  };
+}
+
 export default async function PaginaArtigo({ params }) {
   const { slug } = await params;
 

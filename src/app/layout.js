@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://clicksimples.aliano.com.br"),
   title: {
     default: "Click Simples",
     template: "%s | Click Simples",
@@ -22,7 +23,9 @@ export const metadata = {
 
   description:
     "Aprenda marketing digital, presença digital, sites, Google e tecnologia de forma simples, prática e sem linguagem técnica.",
-
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "marketing digital",
     "presença digital",
