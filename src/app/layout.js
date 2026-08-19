@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import SiteFooter from "@/components/SiteFooter";
 import PortfolioButton from "@/components/PortfolioButton";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 
